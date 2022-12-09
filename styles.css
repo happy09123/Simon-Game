@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(66, 73, 78);
+    color: aliceblue;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin: 5px 0 30px;
+}
+
+button {
+    padding: 100px;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+/* CLASSES */
+
+.buttons {
+    background-color: rgb(32, 32, 32);
+    margin: 0 auto;
+    width: 500px;
+    padding: 30px 35px;
+    border-radius: 15px;
+}
+
+.pressed {
+    opacity: 0.5;
+    box-shadow: 0 3px 4px 0 #696969;
+}
+
+.gameover {
+    background-color: red;
+    color: rgb(156, 6, 6);
+}
+
+/* IDS */
+
+#green {
+    background-color: green;
+    border: 3.5px rgb(3, 63, 3) solid;
+}
+
+#red {
+    background-color: rgb(226, 0, 0);
+    border: 3.5px rgb(97, 0, 0) solid;
+}
+
+#yellow {
+    background-color: rgb(255, 217, 0);
+    border: 3.5px rgb(94, 69, 1) solid;
+}
+
+#blue {
+    background-color: rgb(22, 0, 224);
+    border: 3.5px rgb(10, 0, 102) solid;
+}
